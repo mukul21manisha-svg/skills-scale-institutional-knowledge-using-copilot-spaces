@@ -2,27 +2,26 @@
 
 Welcome to the OctoAcme Project Management documentation suite. This directory contains the processes, templates, and guidance that enable OctoAcme teams to run projects consistently, transparently, and with measurable outcomes.
 
-## Overview of OctoAcme Project Management
-
-OctoAcme follows a structured, lifecycle-based approach to project management that emphasizes customer value, iterative delivery, and clear ownership. The organization operates projects through five key phases: **Initiation**, **Planning**, **Execution**, **Release**, and **Close & Retrospective**. Each phase is anchored by specific deliverables and decision gates that ensure alignment and quality at every stage.
-
-During the Initiation phase, teams create a lightweight Project One-pager that captures the business need, success metrics, stakeholders, and initial timeline to confirm go/no-go status. The Planning phase then breaks this vision into actionable work by building a prioritized backlog with acceptance criteria, estimating scope, defining a Definition of Done, and identifying dependencies. This structured approach ensures alignment before execution begins and reduces the risk of scope creep or miscommunication.
-
-Execution and delivery are managed through a repeatable sprint rhythm with clear communication cadences. Teams work in iterations using a project board with columns (Backlog, Ready, In Progress, In Review, QA, Done) to maintain visibility. Small pull requests (≤400 lines when possible) with linked acceptance criteria and automated CI/CD checks form the backbone of quality assurance, supplemented by unit tests, integration tests, and smoke testing for critical flows. Daily standups (15 minutes) focus on progress and blockers, while weekly delivery syncs track progress against milestones and flag risks.
-
-OctoAcme defines clear roles and responsibilities to eliminate ambiguity: **Project Managers** coordinate delivery and manage schedules; **Product Managers** own vision and prioritize work; **Developers** build features and maintain quality standards; and **QA/Testing** ensures acceptance criteria are met. Finally, OctoAcme embeds continuous improvement into its culture through retrospectives after each sprint or milestone, creating a virtuous cycle of learning and iteration. Combined with risk management formalized through a Risk Register and systematic approaches to quality, the organization reliably delivers while scaling institutional knowledge across teams.
-
-## Core Principles
-
-OctoAcme operates on these foundational principles:
-
 - **Customer-first**: Prioritize customer value and usability
 - **Iterative delivery**: Deliver small, testable increments
 - **Clear ownership**: Each project has a named Project Manager (PM) and Product Lead
 - **Data-informed decisions**: Measure impact and iterate based on evidence
 - **Psychological safety**: Encourage feedback and learning
 
+
 ## Process Documentation by Lifecycle Phase
+=======
+## OctoAcme Project Management Approach
+
+OctoAcme operates a structured, lifecycle-based project management framework that emphasizes customer-first delivery, iterative development, and clear accountability. The approach spans five key phases: **Initiation** (validating business need and stakeholder alignment), **Planning** (breaking work into shippable increments with defined acceptance criteria), **Execution** (daily standups and sprint-based delivery with quality gates), **Release** (standardized deployment with rollback contingencies), and **Close & Retrospective** (capturing learnings for continuous improvement). This end-to-end model ensures that projects are grounded in measurable success metrics, maintain transparency across stakeholders, and reduce single-person dependency risk by documenting processes and decisions systematically.
+
+The delivery model is built on **three core roles**: Project Managers coordinate schedules, risks, and communications; Product Managers define outcomes, prioritize backlogs, and measure impact; and Developers implement features while contributing to design, estimation, and risk mitigation. Cross-functional collaboration is formalized through a regular communication cadence—daily team standups, twice-weekly delivery syncs, weekly PM-PdM alignment, and monthly stakeholder updates—supported by a "single source of truth" approach using project boards (e.g., GitHub Projects) and centralized documentation. This structure ensures decisions are visible, dependencies are tracked, and escalation paths are clear.
+
+Quality and risk management are woven into every phase. OctoAcme enforces small pull requests (≤400 lines), requires automated testing and linting in CI, mandates at least one approval before merge, and includes security scanning and manual QA before release. Risk registers are maintained throughout the project lifecycle, with identified risks assessed for impact and likelihood, and reviewed weekly. Blockers escalate through a defined three-level hierarchy (team triage → PM to Product Lead → sponsor escalation), ensuring that obstacles don't delay delivery unexpectedly. A pre-release checklist confirms acceptance criteria, CI status, smoke tests, and rollback plans before deployment.
+
+Finally, OctoAcme institutionalizes learning through **retrospectives and continuous improvement**. After each sprint, release, or milestone, teams reflect on what went well and what could improve, converting insights into prioritized action items tracked with clear owners and due dates. This culture of psychological safety, measurement, and iterative refinement—combined with artifact versioning and integration with Copilot Spaces—enables rapid onboarding, consistent execution, and sustainable scaling of institutional knowledge across the organization.
+
+## Process Documentation
 
 OctoAcme projects follow a structured lifecycle. Here's where to find guidance at each stage:
 
@@ -84,8 +83,3 @@ See **[Retrospective & Continuous Improvement](octoacme-retrospective-and-contin
 ## Contributing to OctoAcme Documentation
 
 To add content or updates to the OctoAcme process documentation, use the **[Add Content to Project Management Process Docs](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)** issue template. This ensures all updates are tracked, reviewed, and aligned with existing processes.
-
----
-
-**Last Updated**: August 24, 2026  
-For questions or suggestions, please open an issue or contact the Project Management team.
